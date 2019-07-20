@@ -3640,7 +3640,7 @@ td.ads-details-td {
 }
 
 .f-category .pricetag span {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .product-item-pricetag-small {
@@ -4325,7 +4325,11 @@ nav.slider-nav a.next {
 	width: auto;
 	z-index: 10;
 }
-
+.ads-details-info p{
+	text-align: justify; /* For Edge */
+  -moz-text-align-last: left; /* For Firefox prior 58.0 */
+  text-align-last: left;
+}
 .img-box {
 	position: relative;
 	display: block;
@@ -4888,4 +4892,8 @@ to {
 	#mobileTelNo, #mobileTelNoFooter{
 		display: none;
 	}
+}
+
+.four_person_single_layer_price {
+	font-size: 16px;
 }
