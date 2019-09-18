@@ -13,7 +13,8 @@ var priceList = {
 	
 	patrol_tent_8x7_5 : "16500",
 	patrol_tent_10x7 : "21500",
-	patrol_tent_10x10 : "22500",
+	patrol_tent_10x10x6 : "22500",
+	patrol_tent_10x10x7 : "24500",
 	rover_cabin_small : "36000",
 	rover_cabin_large : "42000",
 	
@@ -46,7 +47,8 @@ var priceList = {
 	backpack_type2 : "9250",
 	
 	butane_gas_canister : "450",
-	camping_air_bed : "3800",
+	camping_air_bed_small : "3800",
+	camping_air_bed_large : "4800",
 	camping_gas_stove : "3200",
 	camping_mini_gas_stove : "1600",
 	camping_lamp : "2100",
@@ -103,8 +105,10 @@ $(document).ready(function() {
 	$(".coleman_octagon_person_tent_price").text(priceList["coleman_octagon_person_tent"]);
 	$(".patrol_tent_8x7_5_price").text(priceList["patrol_tent_8x7_5"]);
 	$(".patrol_tent_10x7_price").text(priceList["patrol_tent_10x7"]);
-	$(".patrol_tent_10x10_price").text(priceList["patrol_tent_10x10"]);
+	$(".patrol_tent_10x10x6_price").text(priceList["patrol_tent_10x10x6"]);
+	$(".patrol_tent_10x10x7_price").text(priceList["patrol_tent_10x10x7"]);
 	$(".rover_cabin_small_price").text(priceList["rover_cabin_small"]);
+	$(".rover_cabin_large_price").text(priceList["rover_cabin_large"]);
 	
 	$(".powder_coated_6x6_price").text(priceList["powder_coated_6x6"]);
 	$(".powder_coated_10x10_price").text(priceList["powder_coated_10x10"]);
@@ -124,10 +128,11 @@ $(document).ready(function() {
 	$(".vehicle_parking_shade_8_price").text(priceList["vehicle_parking_shade_8"]);
 	$(".vehicle_parking_shade_10_price").text(priceList["vehicle_parking_shade_10"]);
 	
-	$("backpack_type1._price").text(priceList["backpack_type1"]);
-	$("backpack_type2._price").text(priceList["backpack_type2"]);
+	$(".backpack_type1_price").text(priceList["backpack_type1"]);
+	$(".backpack_type2_price").text(priceList["backpack_type2"]);
 	$(".butane_gas_canister_price").text(priceList["butane_gas_canister"]);
-	$(".camping_air_bed_price").text(priceList["camping_air_bed"]);
+	$(".camping_air_bed_price_small").text(priceList["camping_air_bed_small"]);
+	$(".camping_air_bed_price_large").text(priceList["camping_air_bed_large"]);
 	$(".camping_gas_stove_price").text(priceList["camping_gas_stove"]);
 	$(".camping_mini_gas_stove_price").text(priceList["camping_mini_gas_stove"]);
 	$(".camping_lamp_price").text(priceList["camping_lamp"]);
